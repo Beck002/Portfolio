@@ -1,0 +1,80 @@
+.container__sobreMi{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 5rem;
+    gap: 2.5rem;
+
+    @include desktop {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    
+    .sobreMi{
+        margin: 0 auto;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 3.2rem;
+        background: linear-gradient(45deg, transparent, $color-primario, transparent);
+        display: grid;
+        place-items: center;
+
+        @include tablet{
+            width: 50%;
+        }
+        @include desktop{
+            width: 90%;
+        }
+        
+    }   
+    
+    .sobreMi__img{
+        border-radius: 3.2rem;
+        overflow: hidden;
+        @include desktop{
+            transform: rotate(5deg);
+            transition: $transition;
+            &:hover{
+                transform: rotate(0deg);
+            }
+        }
+    
+    }
+}
+
+
+
+.tarjetas__personales{
+
+    display: grid;
+    gap: 2.4rem;
+    @include  tablet{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.tarjeta__personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $color-bg-variable;
+    border: 1px solid transparent;
+    border-radius: 1.6rem;
+    padding: 3.2rem;
+    text-align: center;
+    transition: $transition;
+
+    &:hover{
+        background: transparent;
+        border-color: $color-primario--variable;
+        cursor: default;
+    }
+
+    small{
+        color: $color-light;
+    }
+
+    .sobreMi__icono{
+        color: $color-primario;
+        font-size: 3rem;
+    }
+}

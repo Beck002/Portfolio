@@ -1,0 +1,41 @@
+.container__contacto{
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4rem;
+
+    @include desktop{  
+        display: grid; 
+        grid-template-columns: 30% 60%;
+        gap: 10%;
+    }
+
+    .opciones__contacto{
+        display: grid;
+        gap: 2rem;
+
+        @include tablet{
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include desktop{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+
+.formulario__contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    input,textarea{
+        width: 100%;
+        padding: 2rem;
+        border-radius: 1rem;
+        background: transparent;
+        border: 2px solid $color-primario--variable;
+        resize: none;
+        color: $color-blanco;
+    }
+}

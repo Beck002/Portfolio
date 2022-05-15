@@ -1,0 +1,36 @@
+.container__portafolio{
+    display: grid;
+    gap: 5rem;
+
+    @include tablet{
+        grid-template-columns:1fr 1fr ;
+    }
+    @include desktop{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+.portafolio__item{
+    background-color: $color-bg-variable;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid $color-primario--variable;
+    transition: $transition;
+
+    &:hover{
+        background: transparent;
+    }
+
+    .portafolio__item__img{
+        border-radius: 1.5rem;
+    }
+
+    .portafolio__item__cta{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+}
