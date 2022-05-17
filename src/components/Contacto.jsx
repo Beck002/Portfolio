@@ -31,8 +31,7 @@ function Contacto() {
         <div className="opciones__contacto">
 
           <TarjetaFucional icono={<AiOutlineMail />}  titulo="Mail"     
-          descripcion="guille_12.12@hotmail.com" enlace="mailto:guille_12.12@outlook.com?subject" 
-          mensaje="Enviar Mensaje"/>
+          descripcion="guille_12.12@hotmail.com"/>
 
           <TarjetaFucional icono={<BsLinkedin />}  titulo="LinkedIn" 
           descripcion="guillermo Fernandez"      enlace="https://www.linkedin.com/in/guillermo-fern%C3%A1ndez-2100051b5/" 
@@ -46,7 +45,7 @@ function Contacto() {
         <form className='formulario__contacto' ref={form} onSubmit={sendEmail} >
           <input type="text"  name='name'   placeholder='Nombre Completo' required/>
           <input type="email" name='email'  placeholder='E-mail'          required/>
-          <textarea name="mensaje" rows="7" placeholder='Mensajito'      required></textarea>
+          <textarea name="mensaje" rows="7" placeholder='Mensaje'      required></textarea>
           <button type='submit' className='btn btn-primario'>Enviar Mensaje</button>
         </form>
       </div>

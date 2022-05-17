@@ -1,8 +1,9 @@
 import React from 'react'
-import sobreMi from '../assets/me-about2.jpg'; 
+import sobreMi from '../assets/me-about2.png'; 
 import { FaAward }          from 'react-icons/fa';
 import { FiUsers }          from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
+
 import TarjetaFuncional from './componentesUnitarios/TarjetaFuncional';
 
 
@@ -24,11 +25,12 @@ function SobreMi() {
         <div className="sobreMi__contenido">
 
           <div className="tarjetas__personales">
-            <TarjetaFuncional icono={<FaAward/>}          titulo="Experiencia"  descripcion="ninguna xd"/>
-            <TarjetaFuncional icono={<FiUsers/>}          titulo="Clientes"     descripcion="ninguna xd"/>
-            <TarjetaFuncional icono={<VscFolderLibrary/>} titulo="Proyectos"    descripcion="ninguna xd"/>
+            <TarjetaFuncional icono={<FaAward/>}          titulo="Estudios"     descripcion="CoderHouse Desarrollo Front-End" />
+            <TarjetaFuncional icono={<FiUsers/>}          titulo="Sobresobre"     descripcion="ninguna xd"/>
+            <TarjetaFuncional icono={<VscFolderLibrary/>} titulo="Proyectos"    mensaje="-> GitHub <-" enlace="https://github.com/Beck002?tab=repositories"/>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sunt laboriosam minus debitis illo quis omnis esse ullam quasi vitae expedita dolor, at iste necessitatibus pariatur a architecto tempora suscipit, odit dignissimos accusamus? Eius, architecto! Alias possimus quibusdam dolores reprehenderit obcaecati numquam repellat repellendus iste velit impedit tempore, natus dignissimos.</p>
+          <p>Soy un desarrollador Front-End comprometido y responsable, entre mis objetivos esta el poder mejorar mis habilidades, encontrar diferentes formas programar y buscar la mejor manera de implementar mis nuevos conocimientos a la hora de trabajar. Me gusta la idea de resolver problemas, y que estos problemas sean los desafíos que me hacen mejorar como desarrollador. 
+          </p>
           <a href="#contacto" className='btn btn-primario'>Contacto</a>
         </div>
 

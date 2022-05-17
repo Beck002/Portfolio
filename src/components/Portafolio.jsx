@@ -1,49 +1,43 @@
 import React   from 'react'
-import imagen1 from '../assets/portfolio1.jpg' 
+import imgTodoApp from '../assets/ToDoApp.png' 
+import imgEcommerce from '../assets/img_ecommerce.png' 
+import blackJackJs from '../assets/BlackJackJavaScript.png' 
+import imgCalculadoraReact from '../assets/CalculadoraReact.png' 
+
 function Portafolio() {
 
   const data = [
     {
       id: 1,
-      imagen: imagen1,
-      titulo: 'ToDo App',
-      github: 'https://github.com',
-      probar: 'https://github.com'
+      imagen: imgEcommerce,
+      titulo: 'Ecommerce (Solo HTML/CSS/SCSS)',
+      github: 'https://github.com/Beck002/Guillermo_Fernandez',
+      probar: 'https://beck002.github.io/Guillermo_Fernandez/'
+
     },
     {
       id: 2,
-      imagen: imagen1,
-      titulo: 'ToDo App',
-      github: 'https://github.com',
+      imagen: imgCalculadoraReact,
+      titulo: 'Calculadora con React',
+      github: 'https://github.com/Beck002/Calculadora',
       probar: 'https://github.com'
     },
     {
       id: 3,
-      imagen: imagen1,
-      titulo: 'ToDo App',
-      github: 'https://github.com',
-      probar: 'https://github.com'
+      imagen: blackJackJs,
+      titulo: 'Juego Black Jack (Solo JavaScript)',
+      github: 'https://github.com/Beck002/BlackJack',
+      probar: 'https://beck002.github.io/BlackJack/'
     },
     {
       id: 4,
-      imagen: imagen1,
-      titulo: 'ToDo App',
-      github: 'https://github.com',
-      probar: 'https://github.com'
+      imagen: imgTodoApp,
+      titulo: 'Aplicación ToDo (Vanilla JavaScript)',
+      github: 'https://github.com/Beck002/TodoApp',
+      probar: 'https://beck002.github.io/TodoApp/'
+
     },
-    {
-      id: 5,
-      imagen: imagen1,
-      titulo: 'ToDo App',
-      github: 'https://github.com',
-      probar: 'https://github.com'
-    },    {
-      id: 6,
-      imagen: imagen1,
-      titulo: 'ToDo App',
-      github: 'https://github.com',
-      probar: 'https://github.com'
-    },
+
   ];
 
 
