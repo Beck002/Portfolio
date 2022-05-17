@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0e858b3f.css",
+    "main.js": "/Portfolio/static/js/main.00402aab.js",
+    "static/media/cv_img2.jpg": "/Portfolio/static/media/cv_img2.0e97281a2e60d388a894.jpg",
+    "static/media/CalculadoraReact.png": "/Portfolio/static/media/CalculadoraReact.ab502c31abaee5b1d82c.png",
+    "static/media/img_ecommerce.png": "/Portfolio/static/media/img_ecommerce.6dd359d0175c0a89feac.png",
+    "static/media/ToDoApp.png": "/Portfolio/static/media/ToDoApp.207ac468a8c53dbd65f8.png",
+    "static/media/BlackJackJavaScript.png": "/Portfolio/static/media/BlackJackJavaScript.f8627f92c63947458f11.png",
+    "static/media/curriculum.pdf": "/Portfolio/static/media/curriculum.a4ea58bbb07cd3ee951c.pdf",
+    "static/media/me-about2.png": "/Portfolio/static/media/me-about2.e5f54675ca4f34f81349.png",
+    "index.html": "/Portfolio/index.html",
+    "main.0e858b3f.css.map": "/Portfolio/static/css/main.0e858b3f.css.map",
+    "main.00402aab.js.map": "/Portfolio/static/js/main.00402aab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e858b3f.css",
+    "static/js/main.00402aab.js"
+  ]
+}
